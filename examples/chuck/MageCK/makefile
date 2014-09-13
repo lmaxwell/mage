@@ -10,7 +10,7 @@ CXX_MODULES=MageCK.cpp
 CK_SRC_PATH?=../chuck/include/
 
 #external LIBS
-LIBS= -L/home/lixian/code/experiment/mage-org/bin/Release -lmage -lmage-htsengine -lmage-sptk 
+LIBS= -lmage  -lmage-htsengine -lmage-sptk
 
 
 # ---------------------------------------------------------------------------- #

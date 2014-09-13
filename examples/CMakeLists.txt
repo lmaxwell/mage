@@ -14,3 +14,5 @@ ADD_SUBDIRECTORY(memorytest)
 ADD_SUBDIRECTORY(puredata)
 # pHTSbatch: generating a testing example as a waveform
 ADD_SUBDIRECTORY(pHTSbatch)
+#Chugin: chuck external
+ADD_SUBDIRECTORY(chuck/MageCK)

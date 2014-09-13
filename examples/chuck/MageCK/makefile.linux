@@ -1,10 +1,9 @@
 
 CHUGIN_PATH=/usr/lib/chuck
 
-FLAGS=-D__LINUX_ALSA__ -I$(CK_SRC_PATH)   -I/home/lixian/code/experiment/mage-org/src  -I/home/lixian/code/experiment/mage-org/libs/hts_engine-1.06 -I/home/lixian/code/experiment/mage-org/libs/sptk -I/home/lixian/code/experiment/mage-org/libs/portaudio-0.19
+FLAGS=-D__LINUX_ALSA__ -I$(CK_SRC_PATH)   -I/home/lxian/code/myproject/mage/src  -I/home/lxian/code/myproject/mage/libs/hts_engine-1.06 -I/home/lxian/code/myproject/mage/libs/sptk -I/home/lxian/code/myproject/mage/libs/portaudio-0.19
 
-LDFLAGS=-shared -lstdc++  -L/home/lixian/code/experiment/mage-org/bin/Release -lmage -lmage-htsengine -lmage-sptk
-
+LDFLAGS=-shared -lstdc++  -L/home/lxian/code/experiment/mage/bin/Release  
 
 LD=gcc
 CXX=g++
